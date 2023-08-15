@@ -1,0 +1,31 @@
+.table-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .project-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .project-table th,
+  .project-table td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .project-table th {
+    background-color: #333;
+    color: white;
+  }
+  
+  .project-table tbody tr:nth-child(even) {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  

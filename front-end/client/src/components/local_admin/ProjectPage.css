@@ -1,0 +1,59 @@
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+
+  .project-details-container {
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-details-container h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .project-details-container p {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .image-gallery img {
+    width: calc(33.33% - 10px); /* Adjust the width based on your preference */
+    margin: 5px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Media query for responsive layout on smaller screens */
+  @media screen and (max-width: 768px) {
+    .image-gallery img {
+      width: calc(50% - 10px);
+    }
+  }
+  
+  img {
+    width: 100%;
+    max-width: 404px;
+    height: auto;
+  }
+  
+   
+ 

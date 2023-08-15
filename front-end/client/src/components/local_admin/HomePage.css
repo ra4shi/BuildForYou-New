@@ -1,0 +1,120 @@
+/* Reset some default styling */
+* {
+  margin: 0;
+  padding: 0;
+ 
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+/* Home Container */
+/* .home-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+} */
+
+/* Home Container Left (Side Navigation) */
+.home-container-left {
+  flex: 1;
+  background-color: #4d4d4d;
+  color: #ffffff;
+   
+  display: flex;
+  flex-direction: column;
+}
+
+.side-nav {
+  flex: 1;
+}
+
+.logo img {
+  width: 80px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.nav-lists {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-list {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 0;
+  transition: background-color 0.2s;
+}
+
+.nav-list:hover {
+  background-color: #333333;
+}
+
+.active-nav-list {
+  background-color: #333333;
+}
+
+/* Home Container Right (Main Content) */
+.home-container-right {
+  flex: 2;
+  padding: 20px;
+}
+
+.main-container {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 18px;
+}
+
+/* Additional Styles for the .box */
+.box {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+/* ... Add the remaining styles for .box, .group-wrapper, .group, .overlap-group, .text-wrapper, .div, .text-wrapper-2, .text-wrapper-3, .text-wrapper-4, .overlap, .vector, .search-for, .overlap-2 ... */
+
+/* Responsive styles (Optional) */
+@media screen and (max-width: 768px) {
+  .home-container {
+    flex-direction: column;
+  }
+  .home-container-left {
+    width: 100%;
+  }
+  .home-container-right {
+    width: 100%;
+  }
+  .main-container {
+    max-width: 100%;
+  }
+}
+
+ #root{
+    background-image: url('https://images.pexels.com/photos/1437493/pexels-photo-1437493.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 100vh;
+  }
